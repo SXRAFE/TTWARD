@@ -1,7 +1,7 @@
 import html.parser
 
 gradesTable = False
-grades = {}
+grades = {list()}
 
 class GradePageParser(html.parser.HTMLParser):
 
@@ -28,7 +28,6 @@ rawHTML = ""
 for line in file:
     rawHTML += line
 file.close()
-
 
 parser = GradePageParser()
 
