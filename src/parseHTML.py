@@ -9,6 +9,7 @@ currentSubjectName = str()
 
 class GradePageParser(html.parser.HTMLParser):
 
+    # TODO: refactor because this is absolutely horrible
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         global gradesTable
         global grades
@@ -60,7 +61,7 @@ class GradePageParser(html.parser.HTMLParser):
                 if gradeContainer:
                     grades[currentSubjectName].append(data)
                     gradeContainer = False
-                print("Data: " + data)
+                # print("Data: " + data)
         
 
 
