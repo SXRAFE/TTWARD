@@ -5,6 +5,7 @@ Argo Kamenik, Sass Kristofer Kase, Siim Seppo
 Discord bot, mis saadaks sulle notificationi, kui Studiumisse tuleb uus hinne/suhtluses avatakse uus teema
 
 Rollid: 
+
 Argo - Stuudiumi hinnetelehe tükeldamine ja sealt info saamine
 P3 prototüüp: ./src/parseHTML.py
 Programm võtab Stuudiumi hinnetelehe (meil näiteks pandud grades.html) ning tükeldab selle sõnastikuks, kus igal ainel on hinnetest list.
