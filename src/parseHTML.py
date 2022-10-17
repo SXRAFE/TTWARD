@@ -61,7 +61,7 @@ class GradePageParser(html.parser.HTMLParser):
                 if gradeContainer:
                     grades[currentSubjectName].append(data)
                     gradeContainer = False
-                # print("Data: " + data)
+                #print("Data: " + data)
         
 
 
