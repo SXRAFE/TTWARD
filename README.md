@@ -3,6 +3,7 @@ Discord bot, mis võtab infot Stuudiumi API kaudu
 
 Argo Kamenik, Sass Kristofer Kase, Siim Seppo
 Discord bot, mis saadaks sulle notificationi, kui Studiumisse tuleb uus hinne/suhtluses avatakse uus teema
+
 Rollid: 
 Argo - Stuudiumi hinnetelehe tükeldamine ja sealt info saamine
 P3 prototüüp: ./src/parseHTML.py
