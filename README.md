@@ -1,6 +1,21 @@
 # BotOfStuudium
 Discord bot, mis võtab infot Stuudiumi API kaudu
 
+# Kuidas kasutada?
+
+1. Paigaldada vajalikud teegid programmi tööks:
+    - requests
+    - html.parser
+    - schedule
+    - discord
+    - sqlite3
+    - pandas
+2. Konfigureerida ./src/.env fail:
+    - Sisestada väärused
+
+3. Jooksutada ./src/main.py
+
+
 Argo Kamenik, Sass Kristofer Kase, Siim Seppo
 Discord bot, mis saadaks sulle notificationi, kui Studiumisse tuleb uus hinne/suhtluses avatakse uus teema
 Rollid: 
