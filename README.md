@@ -11,7 +11,13 @@ Discord bot, mis võtab infot Stuudiumi API kaudu
     - sqlite3
     - pandas
 2. Konfigureerida ./src/.env fail:
-    - Sisestada väärused
+    - DISCORD_TOKEN: token Discordi roboti jaoks
+    - GUILD_ID: Discordi serveri ID, kui on soov jooksutada serveris
+    - DISCORD_CHANNEL_ID: Discordi kanali ID, võib olla nii personaalne sõnum, kui ka serveri kanal
+    - STUUDIUM_BASE_URL: Stuudiumi kooli base URL, näiteks https://tamme.ope.ee
+    - STUUDIUM_USERNAME: Stuudiumi kasutajanimi
+    - STUUDIUM_PASSWORD: Stuudiumi parool
+    - STUUDIUM_STUDENT_ID: Stuudiumis avalehe URL-is olev id, nt https://tamme.ope.ee/s/1234 puhul oleks see 1234
 
 3. Jooksutada ./src/main.py
 

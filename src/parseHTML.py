@@ -3,9 +3,9 @@ import requests
 import dotenv
 
 acceptedValues = ['5', '4', '3', '2', '1', 'A', 'MA']
-config = dotenv.dotenv_values(".env")
+config = dotenv.dotenv_values("./src/.env")
 
-print(str(config))
+# print(str(config))
 
 # Due to the architecture of this library, the parsing has to be done like this with
 # these boolean values that indicate if we're in certain sections of the HTML page.
